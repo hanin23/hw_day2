@@ -1,21 +1,2 @@
-void main() {
-  Author author1 = Author("sara", "sara578@email.com");
-  Author author2 = Author("ali", "ali123@email.com");
-  Author author3 = Author("ahmed", "ahmed235@email.com");
 
-  Book book1 = Book("sara", "578", 645, author1);
-  Book book2 = Book("ali", "123", 853, author2);
-  Book book3 = Book("ahmed", "235", 245, author3);
 
-  print(author1.id);
-  print(author2.id);
-  print(author3.id);
-
-  Customer customer1 = Customer("sara", "sara578@email.com");
-
-  customer1.addBook(book1);
-  customer1.addBook(book2);
-  customer1.addBook(book3);
-
-  customer1.printInformation();
-}
